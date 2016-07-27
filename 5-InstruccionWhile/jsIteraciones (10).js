@@ -42,6 +42,9 @@
 			cantpares += 1
 			
 		}
+
+     
+
 	nun = prompt("ingrese numero");
   }
    prompos= sumapos/canpos
@@ -50,10 +53,12 @@
    
     document.write("el promedio de positivos es"+prompos)
     document.write("<br>el promedio de negativos"+promneg)
-    document.write("<br>la diferencia entre negativos y positivos"+diferencia)
+    document.write ("<br>la diferencia entre negativos y positivos"+diferencia)
     document.write("<br>sumapos"+sumapos)
     document.write("<br>canpos"+ canpos)
     document.write("<br>cantidad de numeros pares"+cantpares)
+    document.write("<br>cantidad de ceros"+cantceros)
+   
    
 
 }//FIN DE LA FUNCIÓN

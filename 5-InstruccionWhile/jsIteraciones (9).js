@@ -1,8 +1,8 @@
 function Mostrar()
 {//inicio
 	var numero;
-	var max = - 1000;
-	var min = 1000;
+	var max =-1000000
+	var min = 10000000
 	numero = prompt("ingreso numero");
 	//proceso
 	
@@ -24,3 +24,4 @@ function Mostrar()
 	alert("el max es" + max + "min"+ min);
 	
 }//FIN DE LA FUNCIÓN
+	

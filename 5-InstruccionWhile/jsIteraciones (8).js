@@ -1,14 +1,41 @@
 function Mostrar()
 {
+	var numero;
+	var suma = 0
+	var multiplicacion = 1
+	var respuesta;
 
-	var contador=0;
-	var positivo=0;
-	var negativo=1;
-	
-	var respuesta='si';
+	while(numero != "no")
+	{
+		numero = prompt("Ingrese un numero:");
+		if(numero > 0){
+
+			suma = suma + parseInt(numero)
+			
+
+			}	
+
+		else
+		{
+			if(numero < 0){
 
 
-document.getElementById('suma').value=positivo;
-document.getElementById('producto').value=negativo;
+
+			multiplicacion = multiplicacion * numero 
+
+			 }
+			
+		}
+	}
+
+	document.getElementById("suma").value = suma
+	document.getElementById("producto").value = multiplicacion
+
+
+
+
+
+
+
 
 }//FIN DE LA FUNCIÓN
